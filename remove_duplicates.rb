@@ -1,3 +1,4 @@
+
 class RemoveDuplicates
   attr_reader :dup_list
 
