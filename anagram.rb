@@ -1,7 +1,7 @@
 class Anagram
   def run(str1,str2)
-    a1 = str1.gsub(' ','').downcase.split("")
-    a2 = str2.gsub(' ','').downcase.split("")
+    a1 = str1.gsub(/[^\w\s]/,'').downcase.split("")
+    a2 = str2.gsub(/[^\w\s]/,'').downcase.split("")
     h1 = {}
 
     if a1.length != a2.length
