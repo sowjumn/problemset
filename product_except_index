@@ -1,0 +1,8 @@
+def product_except_index(ar1)
+  output_array = []
+  prod = 1
+  ar1.each do |a|
+    prod *= 
+  end
+end
+
